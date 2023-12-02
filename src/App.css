@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.Table{
+  text-align: center;
+}
+.Table-header{
+  background-color: white;
+}
+
+.DropDownForm{
+  margin: auto;
+  width: 40%;
+}
