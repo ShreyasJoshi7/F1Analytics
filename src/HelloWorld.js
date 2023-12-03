@@ -11,6 +11,7 @@ class HelloWorld extends Component{
             <div>
                 <AppNavBar />
                 <Button color="link"><Link to='/'>Home</Link></Button>
+                new possibilities
             </div>
         );
     }
