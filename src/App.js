@@ -15,7 +15,7 @@ class App extends Component{
       <Router>
         <div>
         <Switch>
-            <Route exact path='/monkey/allDrivers' component={DriversList}/>
+            <Route exact path='/' component={DriversList}/>
             <Route path='/helloWorld' component={HelloWorld}/>
         </Switch>
       </div>
