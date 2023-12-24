@@ -155,7 +155,7 @@ class DriversList extends Component{
         // console.log(this.state.driverName, this.state.year, this.state.grandPrix)
         // console.log(this.state)
         const response =  await fetch('/monkey/allDrivers',{method: 'GET'});
-        const body =   await response.text();
+        const body =   await response.json();
         console.log(body)
         
         this.setState({drivers: body});
